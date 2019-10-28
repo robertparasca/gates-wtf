@@ -33,3 +33,4 @@ class CreateUserPermissionsPivotTable extends Migration
         Schema::dropIfExists('user_permissions');
     }
 }
+

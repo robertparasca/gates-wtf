@@ -42,3 +42,4 @@ class User extends Authenticatable
         return $this->belongsToMany(Permission::class, 'user_permissions', 'permission_id');
     }
 }
+
